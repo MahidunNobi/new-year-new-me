@@ -5,6 +5,9 @@
 body{
     font-family: 'Work Sans', sans-serif;
 }
+button{
+    cursor: pointer;
+}
 
 /* Header Styles */
 header{
@@ -134,5 +137,40 @@ font-weight: 700;
 /* Footer Styles */
 footer{
     margin-top: 130px;
-    padding: 130px 150px 130px;
+    padding: 130px 150px;
+    background:  #151414;
+    color: white;
+    display: flex;
+    gap: 330px;
+}
+.left-sec{
+    width: 485px;
+}
+.left-sec h2{
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+}
+.left-sec p{
+    line-height: 26px;
+    margin: 12px 0;
+}
+.social-icons img{margin-right: 5px;}
+
+.right-sec{
+    width: 325px;
+}
+.right-sec h3{
+    font-size: 25px;
+    font-weight: 600;
+}
+.right-sec input{
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #F3F3F3;
+    color: #F3F3F3;
+    display: block;
+    background-color: transparent;
+    margin: 25px 0 0;
+    width: 100%;
 }
