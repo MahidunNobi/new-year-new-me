@@ -47,3 +47,92 @@ header{
     font-size: 20px;
     font-weight: 600;
 }
+
+/* Failure section */
+.second-section{
+    padding: 130px 150px 0;
+    display: flex;
+    align-items: center;
+    gap: 130px;
+}
+.left-img-section{
+
+}
+.right-desc-section{
+    width: 416px;
+}
+.right-desc-section h2{
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+}
+.right-desc-section p{
+    color: #444343;
+    line-height: 26px;
+    margin: 20px 0;
+}
+.second-section ul{
+    color: #444343;
+}
+.second-section ul li{
+    list-style-type: none;
+    margin-bottom: 8px;
+}
+.second-section ul li i{
+    color: #16D887;
+}
+/* Plans */
+.plans{
+    padding: 130px 150px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.plans h2{
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+}
+.allplans{
+    display: flex;
+    gap: 60px;
+}
+.plan{
+    text-align: center;
+    padding: 20px;
+}
+/* Poster Styles */
+.poster-sec{
+    padding: 130px 150px 0;
+}
+.poster{
+    background-image: url("../images/gradient3.png"), url("../images/watch.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top-left, center;
+    height: 300px;
+    border-radius: 8px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    padding-left: 40px; 
+}
+.poster h3{    
+font-size: 40px;
+font-weight: 700;
+}
+.call-now{
+    background-color:#fff;
+    color: #F15B22;
+    margin-top: 24px;
+}
+
+/* Footer Styles */
+footer{
+    margin-top: 130px;
+    padding: 130px 150px 130px;
+}
